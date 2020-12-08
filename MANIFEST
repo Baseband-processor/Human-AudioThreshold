@@ -1,0 +1,9 @@
+lib/Human/AudioThreshold.pm
+Makefile.PL
+MANIFEST
+README.md
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
+t/Test-Inclusion.t
+CODE_OF_CONDUCT.md
+LICENSE
