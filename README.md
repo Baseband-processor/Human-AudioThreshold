@@ -50,12 +50,11 @@ print calculate_Absolute_Threshold( 50, 50 );
 use strict;
 use Human::AudioThreshold;
 
-# Like before, take as frequency 50 Hz and as pressure 50 Pa
-print calculate_Absolute_Threshold( 50, 50 );
+# Take frequency and return its critical band
+# in this case the chosen frequency is still 50 Hz
+print calculate_Critical_Bands( 50 );
 
-# NOTE:
-# for representing Hz use the pure number, while for representing for example 50 Khz, use 50000
-
+# Note that the result will be rounded, so it will return the nearest integer to the output
 ```
 
 
