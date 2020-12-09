@@ -9,6 +9,57 @@ Human::AudioThreshold
 
 Click [Here](https://github.com/Baseband-processor/Baseband-processor)
 
+SYNOPSIS
+==============
+
+This library permits to calculate:
+
+**SPL (Sound Pressure Level)**
+   - calculate_Sound_Pressure_Level
+```perl
+#!/usr/bin/perl
+
+use strict;
+use Human::AudioThreshold;
+
+# take as input 50 Pa
+print calculate_Sound_Pressure_Level( 50 );
+```
+
+**Calculate HAS absolute audio Threshold**
+   - calculate_Absolute_Threshold
+```perl
+#!/usr/bin/perl
+
+use strict;
+use Human::AudioThreshold;
+
+# Like before, take as frequency 50 Hz and as pressure 50 Pa
+print calculate_Absolute_Threshold( 50, 50 );
+
+# NOTE:
+# for representing Hz use the pure number, while for representing for example 50 Khz, use 50000
+
+```
+   
+**Calculate HAS critical Sound Bands**
+* calculate_Critical_Bands
+```perl
+#!/usr/bin/perl
+
+use strict;
+use Human::AudioThreshold;
+
+# Like before, take as frequency 50 Hz and as pressure 50 Pa
+print calculate_Absolute_Threshold( 50, 50 );
+
+# NOTE:
+# for representing Hz use the pure number, while for representing for example 50 Khz, use 50000
+
+```
+
+
+
 **Requests and collaborations**
 
 Feel free to email me at <Baseband@cpan.org>
