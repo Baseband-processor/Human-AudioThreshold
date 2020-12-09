@@ -3,6 +3,8 @@
 
 sub END{
 
+use strict;
+use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
