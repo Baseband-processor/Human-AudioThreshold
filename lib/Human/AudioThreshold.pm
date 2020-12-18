@@ -15,6 +15,7 @@ use POSIX qw( atan );
 use Math::Round qw( round );
 
 use constant P0  => 0.00002; # Correspond at the Threshold audibility at 1000 Hz in the Air
+use constant Hz => 1000;
 use constant e => 2.71828182845904523;
 
 sub calculate_Sound_Pressure_Level{
